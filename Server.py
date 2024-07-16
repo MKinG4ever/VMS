@@ -52,8 +52,8 @@ def create_instance(ec2_resource, security_group_id):
 
 def install_squid(instance):
     commands = [
-        'sudo yum update -y',
-        'sudo yum install -y squid',
+        'sudo apt update -y',
+        'sudo apt install -y squid',
         'sudo systemctl enable squid',
         'sudo systemctl start squid'
     ]
