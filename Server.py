@@ -5,8 +5,12 @@ def create_proxy_server(host: str, port: int):
     """
     Create a simple proxy server.
 
+    Author: NightFox
     Version: 0.0
     Timestamp: R
+
+    # WE Are in Day ZERO [R].
+    # Program is on development.
 
     :param host: Host address
     :param port: Port number
