@@ -12,8 +12,12 @@ def run_command(command):
         - sudo python3 Config.py
         - Enjoy!
 
+    Author: NightFox
     Version: 0.0
     Timestamp: R
+    
+    # WE Are in Day ZERO [R].
+    # Program is on development.
 
     :param command: Command to run
     :return: Output of the command
