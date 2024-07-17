@@ -3,6 +3,13 @@ import socket
 
 def create_proxy_server(host: str, port: int):
     """
+    Create a simple proxy server.
+
+    Version: 0.0
+    Timestamp: R
+
+    :param host: Host address
+    :param port: Port number
     """
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
         server.bind((host, port))
